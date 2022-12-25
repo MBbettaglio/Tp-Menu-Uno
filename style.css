@@ -1,0 +1,55 @@
+*{margin: 0;
+    padding: 0;
+  }
+  body{font-family:'Lato';
+    font-weight: bold;}
+
+  header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .nomargin{
+        margin: 0;
+    }
+    .Logo{
+        padding: 0.5rem;
+        }
+        
+    a{
+        text-decoration:  none;
+        color: black;
+    }
+
+    nav > a{margin-left: 50px;
+        }
+
+   
+    button{
+        cursor: pointer;
+
+    }
+    .btnLog{
+        background-color: transparent;
+        color: black;
+        padding: 12px;
+        font-weight: bold;
+        border-radius: 8px;
+        border-color: transparent;
+
+    }
+    .btnReg{
+        background-color: #5E5FF5;
+        color: white;
+        padding: 0.7rem 1.5rem  ;
+        font-weight: bold;
+        border-radius: 8px;
+        border-color: transparent;
+        }
+    button:hover{
+        background-color: white;
+        color:black;
+        border-color: transparent;
+    }
+        
+    
